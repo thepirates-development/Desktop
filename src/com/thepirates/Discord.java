@@ -1,5 +1,11 @@
 package com.thepirates;
 
+import net.arikia.dev.drpc.DiscordEventHandlers;
+import net.arikia.dev.drpc.DiscordRPC;
+import net.arikia.dev.drpc.DiscordRichPresence;
+import net.arikia.dev.drpc.DiscordUser;
+import net.arikia.dev.drpc.callbacks.ReadyCallback;
+
 public class Discord {
 	
 	private boolean running = true;
@@ -45,6 +51,5 @@ public class Discord {
 		
 		DiscordRPC.discordUpdatePresence(b.build());
 	}
-
 
 }

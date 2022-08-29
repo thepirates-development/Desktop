@@ -6,6 +6,7 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="C:/Users/Biraj Rai/Documents/Java Projects/The Pirates/libs/commons-io-2.8.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Biraj Rai/Documents/Java Projects/ThePirates/libs/commons-io-2.8.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Biraj Rai/Documents/Java Projects/ThePirates/libs/discord-rpc.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
