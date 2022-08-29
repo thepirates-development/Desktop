@@ -24,7 +24,7 @@ public class DiscordRP {
 			}
 		}).build();
 		
-		DiscordRPC.discordInitialize("1001465809375334491", handlers, running);
+		DiscordRPC.discordInitialize("1013731718257188954", handlers, running);
 		
 		new Thread("Discord RPC Callback") {
 			public void run() {
@@ -45,7 +45,7 @@ public class DiscordRP {
 	public void update(String firstLine, String secondLine) {
 		
 		DiscordRichPresence.Builder b= new DiscordRichPresence.Builder(secondLine);
-		b.setBigImage("logo", "https://simpclient.golde.org/");
+		b.setBigImage("logo", "");
 		b.setDetails(firstLine);
 		b.setStartTimestamps(created);
 		

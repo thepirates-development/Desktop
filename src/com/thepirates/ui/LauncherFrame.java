@@ -19,6 +19,7 @@ import com.thepirates.Main;
 public class LauncherFrame {
 
 	public LauncherFrame() {
+		Main.INSTANCE.getDiscordRP().update("Hii", "Hello");
 		initialize();
 	}
 	
@@ -26,7 +27,6 @@ public class LauncherFrame {
 	public JPanel panel;
 
 	private void initialize() {
-		Main.INSTANCE.getDiscordRP().update("Idle", "Main Menu");
 		
 		URL fontUrl = null;
 		try {
