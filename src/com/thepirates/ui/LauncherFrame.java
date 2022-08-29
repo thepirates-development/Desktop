@@ -8,13 +8,13 @@ import java.awt.event.ActionListener;
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
+
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
+
 import com.thepirates.Main;
-
-
 
 public class LauncherFrame {
 
@@ -26,6 +26,7 @@ public class LauncherFrame {
 	public JPanel panel;
 
 	private void initialize() {
+		Main.INSTANCE.getDiscordRP().update("Idle", "Main Menu");
 		
 		URL fontUrl = null;
 		try {

@@ -6,7 +6,7 @@ import net.arikia.dev.drpc.DiscordRichPresence;
 import net.arikia.dev.drpc.DiscordUser;
 import net.arikia.dev.drpc.callbacks.ReadyCallback;
 
-public class Discord {
+public class DiscordRP {
 	
 	private boolean running = true;
 	private long created = 0;
